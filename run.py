@@ -43,7 +43,7 @@ class login:
     elif coi in['4','04']:
         from Data import lin3
     elif coi in['5','05']:
-	from Data import lin4
+        from Data import lin4
     elif coi in ['6','06']:
         exit()
         
