@@ -30,7 +30,7 @@ class login:
     update()
     clear()
     banner()
-    sol='[1] MY SOCIAL MEDIA\n[2] Line 1\n[3] Line 2\n[4] Line 3\n[5] Line 4[6] EXIT'
+    sol='[1] MY SOCIAL MEDIA\n[2] Line 1\n[3] Line 2\n[4] Line 3\n[5] Line 4\n[6] EXIT'
     soi=nel(sol,style='green')
     cetak(nel(soi,style='cyan',title='PILIHAN MENU'))
     coi = input('\x1b[1;92m[?] pilih : ')
