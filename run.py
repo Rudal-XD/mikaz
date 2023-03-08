@@ -37,12 +37,14 @@ class login:
     if coi in ['1','01']:
         os.system('xdg-open https://linktr.ee/mikaz_')
     elif coi in['2','02']:
-        from Data import menu
-    elif coi in['3','03']:
         from Data import lin1
-    elif coi in['4','04']:
+    elif coi in['3','03']:
         from Data import lin2
-    elif coi in ['5','05']:
+    elif coi in['4','04']:
+        from Data import lin3
+    elif coi in['5','05']:
+	from Data import lin4
+    elif coi in ['6','06']:
         exit()
         
 if __name__=='__main__':
