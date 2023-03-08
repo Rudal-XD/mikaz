@@ -27,7 +27,7 @@ def banner():
        ''')
  
 class menu:
-    poi='\x1b[1;92myang murah itu rendah hati\n\n\x1b[1;93myang mahal itu harga diri'
+    poi='\x1b[1;92m\nyang murah itu rendah hati\n\x1b[1;93m\nyang mahal itu harga diri'
     pol=nel(poi,style='green')
     cetak(nel(pol,style='cyan'))
     
